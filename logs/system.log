@@ -4539,3 +4539,67 @@
 2025-07-20 12:16:35,198 - ERROR - [preprocess_plate_image:395] - Preprocessing error: module 'config' has no attribute 'MIN_PLATE_HEIGHT'
 2025-07-20 12:16:40,778 - INFO - [detect_and_read_plate:614] - Plate detected: 'JH03MF4477' YOLO_conf=0.701 OCR_conf=0.995
 2025-07-20 12:16:42,349 - ERROR - [preprocess_plate_image:395] - Preprocessing error: module 'config' has no attribute 'MIN_PLATE_HEIGHT'
+2025-07-20 12:29:16,799 - INFO - [setup_directories:105] - Directory structure created
+2025-07-20 12:29:16,799 - INFO - [setup_database:173] - Enhanced database setup complete
+2025-07-20 12:29:16,799 - INFO - [load_models:183] - Loading YOLO model...
+2025-07-20 12:29:16,837 - INFO - [load_models:186] - YOLO model loaded successfully
+2025-07-20 12:29:16,837 - INFO - [load_models:190] - Loading EasyOCR model...
+2025-07-20 12:29:16,837 - WARNING - [__init__:71] - Using CPU. Note: This module is much faster with a GPU.
+2025-07-20 12:29:18,709 - INFO - [load_models:193] - EasyOCR model loaded successfully
+2025-07-20 12:29:18,759 - WARNING - [load_models:208] - Tesseract OCR not available
+2025-07-20 12:29:18,759 - INFO - [__init__:61] - Gokul MetaTech Vehicle Number Plate and Material Recognition v2.0 initialized
+2025-07-20 12:29:19,117 - INFO - [run:1073] - Camera opened successfully
+2025-07-20 12:29:26,917 - ERROR - [preprocess_plate_image:395] - Preprocessing error: module 'config' has no attribute 'MIN_PLATE_HEIGHT'
+2025-07-20 12:29:31,560 - INFO - [detect_and_read_plate:614] - Plate detected: 'KA19EQ0001' YOLO_conf=0.391 OCR_conf=0.998
+2025-07-20 12:29:31,842 - ERROR - [detect_material_color:682] - Material detection error: argument of type 'int' is not iterable
+2025-07-20 12:29:31,842 - INFO - [process_frame:888] - Vehicle detected: Plate: KA19EQ0001 | Material: Detection Error | Confidence: 0.39 | Time: 12:29:31
+2025-07-20 12:29:31,849 - ERROR - [save_detection_to_database:758] - Database save error: table detections has no column named ocr_confidence
+2025-07-20 12:29:31,854 - INFO - [send_to_clipboard:767] - Detection copied to clipboard
+2025-07-20 12:29:34,817 - ERROR - [preprocess_plate_image:395] - Preprocessing error: module 'config' has no attribute 'MIN_PLATE_HEIGHT'
+2025-07-20 12:29:34,977 - ERROR - [preprocess_plate_image:395] - Preprocessing error: module 'config' has no attribute 'MIN_PLATE_HEIGHT'
+2025-07-20 12:29:46,189 - INFO - [detect_and_read_plate:614] - Plate detected: 'KA19EQ0001' YOLO_conf=0.328 OCR_conf=0.996
+2025-07-20 12:29:47,138 - ERROR - [detect_material_color:682] - Material detection error: argument of type 'int' is not iterable
+2025-07-20 12:29:47,146 - INFO - [process_frame:888] - Vehicle detected: Plate: KA19EQ0001 | Material: Detection Error | Confidence: 0.33 | Time: 12:29:47
+2025-07-20 12:29:47,160 - ERROR - [save_detection_to_database:758] - Database save error: table detections has no column named ocr_confidence
+2025-07-20 12:29:47,168 - INFO - [send_to_clipboard:767] - Detection copied to clipboard
+2025-07-20 12:29:55,069 - ERROR - [preprocess_plate_image:395] - Preprocessing error: module 'config' has no attribute 'MIN_PLATE_HEIGHT'
+2025-07-20 12:30:01,462 - ERROR - [preprocess_plate_image:395] - Preprocessing error: module 'config' has no attribute 'MIN_PLATE_HEIGHT'
+2025-07-20 12:30:07,069 - INFO - [detect_and_read_plate:614] - Plate detected: 'GJ19EQ0001' YOLO_conf=0.283 OCR_conf=0.998
+2025-07-20 12:30:07,637 - ERROR - [detect_material_color:682] - Material detection error: argument of type 'int' is not iterable
+2025-07-20 12:30:07,639 - INFO - [process_frame:888] - Vehicle detected: Plate: GJ19EQ0001 | Material: Detection Error | Confidence: 0.28 | Time: 12:30:07
+2025-07-20 12:30:07,647 - ERROR - [save_detection_to_database:758] - Database save error: table detections has no column named ocr_confidence
+2025-07-20 12:30:07,653 - INFO - [send_to_clipboard:767] - Detection copied to clipboard
+2025-07-20 12:30:08,331 - ERROR - [preprocess_plate_image:395] - Preprocessing error: module 'config' has no attribute 'MIN_PLATE_HEIGHT'
+2025-07-20 12:30:19,395 - INFO - [detect_and_read_plate:614] - Plate detected: 'GJ19EQ0001' YOLO_conf=0.510 OCR_conf=0.994
+2025-07-20 12:30:20,900 - ERROR - [detect_material_color:682] - Material detection error: argument of type 'int' is not iterable
+2025-07-20 12:30:20,906 - INFO - [process_frame:888] - Vehicle detected: Plate: GJ19EQ0001 | Material: Detection Error | Confidence: 0.51 | Time: 12:30:20
+2025-07-20 12:30:20,927 - ERROR - [save_detection_to_database:758] - Database save error: table detections has no column named ocr_confidence
+2025-07-20 12:30:20,950 - INFO - [send_to_clipboard:767] - Detection copied to clipboard
+2025-07-20 12:30:21,649 - ERROR - [preprocess_plate_image:395] - Preprocessing error: module 'config' has no attribute 'MIN_PLATE_HEIGHT'
+2025-07-20 12:30:28,889 - INFO - [detect_and_read_plate:614] - Plate detected: 'GJ19EQ0001' YOLO_conf=0.347 OCR_conf=0.950
+2025-07-20 12:30:29,520 - ERROR - [preprocess_plate_image:395] - Preprocessing error: module 'config' has no attribute 'MIN_PLATE_HEIGHT'
+2025-07-20 12:30:38,397 - ERROR - [preprocess_plate_image:395] - Preprocessing error: module 'config' has no attribute 'MIN_PLATE_HEIGHT'
+2025-07-20 12:30:46,128 - INFO - [detect_and_read_plate:614] - Plate detected: 'GJ19EQ0001' YOLO_conf=0.424 OCR_conf=0.994
+2025-07-20 12:30:46,890 - ERROR - [detect_material_color:682] - Material detection error: argument of type 'int' is not iterable
+2025-07-20 12:30:46,890 - INFO - [process_frame:888] - Vehicle detected: Plate: GJ19EQ0001 | Material: Detection Error | Confidence: 0.42 | Time: 12:30:46
+2025-07-20 12:30:46,900 - ERROR - [save_detection_to_database:758] - Database save error: table detections has no column named ocr_confidence
+2025-07-20 12:30:46,904 - INFO - [send_to_clipboard:767] - Detection copied to clipboard
+2025-07-20 12:30:47,538 - ERROR - [preprocess_plate_image:395] - Preprocessing error: module 'config' has no attribute 'MIN_PLATE_HEIGHT'
+2025-07-20 12:30:59,102 - INFO - [detect_and_read_plate:614] - Plate detected: 'GJ19EQ0001' YOLO_conf=0.333 OCR_conf=0.986
+2025-07-20 12:30:59,630 - ERROR - [detect_material_color:682] - Material detection error: argument of type 'int' is not iterable
+2025-07-20 12:30:59,631 - INFO - [process_frame:888] - Vehicle detected: Plate: GJ19EQ0001 | Material: Detection Error | Confidence: 0.33 | Time: 12:30:59
+2025-07-20 12:30:59,638 - ERROR - [save_detection_to_database:758] - Database save error: table detections has no column named ocr_confidence
+2025-07-20 12:30:59,641 - INFO - [send_to_clipboard:767] - Detection copied to clipboard
+2025-07-20 12:31:00,892 - ERROR - [preprocess_plate_image:395] - Preprocessing error: module 'config' has no attribute 'MIN_PLATE_HEIGHT'
+2025-07-20 12:31:07,998 - INFO - [detect_and_read_plate:614] - Plate detected: 'TR03MF4477' YOLO_conf=0.692 OCR_conf=1.000
+2025-07-20 12:31:08,550 - ERROR - [detect_material_color:682] - Material detection error: argument of type 'int' is not iterable
+2025-07-20 12:31:08,550 - INFO - [process_frame:888] - Vehicle detected: Plate: TR03MF4477 | Material: Detection Error | Confidence: 0.69 | Time: 12:31:08
+2025-07-20 12:31:08,557 - ERROR - [save_detection_to_database:758] - Database save error: table detections has no column named ocr_confidence
+2025-07-20 12:31:08,561 - INFO - [send_to_clipboard:767] - Detection copied to clipboard
+2025-07-20 12:31:09,800 - ERROR - [preprocess_plate_image:395] - Preprocessing error: module 'config' has no attribute 'MIN_PLATE_HEIGHT'
+2025-07-20 12:31:15,713 - INFO - [detect_and_read_plate:614] - Plate detected: '1ND' YOLO_conf=0.359 OCR_conf=1.000
+2025-07-20 12:31:16,178 - ERROR - [detect_material_color:682] - Material detection error: argument of type 'int' is not iterable
+2025-07-20 12:31:16,189 - INFO - [process_frame:888] - Vehicle detected: Plate: 1ND | Material: Detection Error | Confidence: 0.36 | Time: 12:31:16
+2025-07-20 12:31:16,189 - ERROR - [save_detection_to_database:758] - Database save error: table detections has no column named ocr_confidence
+2025-07-20 12:31:16,205 - INFO - [send_to_clipboard:767] - Detection copied to clipboard
+2025-07-20 12:31:16,877 - ERROR - [preprocess_plate_image:395] - Preprocessing error: module 'config' has no attribute 'MIN_PLATE_HEIGHT'
