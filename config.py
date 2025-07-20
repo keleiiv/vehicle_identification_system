@@ -1,6 +1,11 @@
 """
-Configuration for Gokul MetaTech Vehicle Recognition System
+Complete Configuration for Gokul MetaTech Vehicle Recognition System
 """
+
+# Company Information
+COMPANY_NAME = "Gokul MetaTech"
+SYSTEM_VERSION = "2.0"
+SYSTEM_PURPOSE = "Vehicle Number Plate and Material Recognition"
 
 # Camera Settings
 CAMERA_URL = "http://192.168.29.145:8080/video"
@@ -20,12 +25,22 @@ OCR_GPU = False
 FRAME_INTERVAL = 0.5
 SAVE_DETECTIONS = True
 DETECTION_FOLDER = "detections"
+MIN_PLATE_LENGTH = 3
+MAX_PLATE_LENGTH = 15
+DUPLICATE_DETECTION_TIMEOUT = 10
 
 # Debug Settings
 DEBUG_MODE = True
 SHOW_ALL_DETECTIONS = True
 SAVE_DEBUG_IMAGES = True
 LOG_OCR_ATTEMPTS = True
+SHOW_PROCESSING_STEPS = True
+
+# Enhanced Features
+USE_MULTIPLE_OCR_ENGINES = True
+ENABLE_PLATE_VALIDATION = True
+OCR_PREPROCESSING_METHODS = 4
+OCR_RESULT_VALIDATION = True
 
 # Material Detection Colors (RGB)
 MATERIAL_COLORS = {
@@ -42,6 +57,7 @@ MATERIAL_COLORS = {
 # Database Settings
 DATABASE_FILE = "vehicles.db"
 ENABLE_DATABASE = True
+BACKUP_DATABASE = True
 
 # Notification Settings
 ENABLE_NOTIFICATIONS = True
@@ -50,8 +66,15 @@ NOTIFICATION_DURATION = 5
 # API Settings
 WEBHOOK_URL = None
 ENABLE_API = False
+API_TIMEOUT = 5
+API_RETRY_ATTEMPTS = 3
 
-# Logging
+# Logging Configuration
 LOG_LEVEL = "INFO"
 LOG_FILE = "system.log"
+MAX_LOG_SIZE = 10485760  # 10MB
+LOG_BACKUP_COUNT = 3
 
+# Performance Settings
+MAX_CONCURRENT_PROCESSING = 2
+MEMORY_CLEANUP_INTERVAL = 100

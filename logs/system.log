@@ -4512,3 +4512,30 @@
 2025-07-19 21:49:30,766 - DEBUG - [detect_and_read_plate:439] - Starting enhanced plate detection...
 2025-07-19 21:49:31,430 - DEBUG - [detect_and_read_plate:439] - Starting enhanced plate detection...
 2025-07-19 21:49:32,157 - DEBUG - [detect_and_read_plate:439] - Starting enhanced plate detection...
+2025-07-20 12:16:02,962 - INFO - [setup_directories:105] - Directory structure created
+2025-07-20 12:16:02,984 - INFO - [setup_database:173] - Enhanced database setup complete
+2025-07-20 12:16:02,984 - INFO - [load_models:183] - Loading YOLO model...
+2025-07-20 12:16:03,174 - INFO - [load_models:186] - YOLO model loaded successfully
+2025-07-20 12:16:03,174 - INFO - [load_models:190] - Loading EasyOCR model...
+2025-07-20 12:16:03,174 - WARNING - [__init__:71] - Using CPU. Note: This module is much faster with a GPU.
+2025-07-20 12:16:04,935 - INFO - [load_models:193] - EasyOCR model loaded successfully
+2025-07-20 12:16:05,025 - WARNING - [load_models:208] - Tesseract OCR not available
+2025-07-20 12:16:05,025 - INFO - [__init__:61] - Gokul MetaTech Vehicle Number Plate and Material Recognition v2.0 initialized
+2025-07-20 12:16:05,190 - INFO - [run:1073] - Camera opened successfully
+2025-07-20 12:16:06,743 - ERROR - [preprocess_plate_image:395] - Preprocessing error: module 'config' has no attribute 'MIN_PLATE_HEIGHT'
+2025-07-20 12:16:11,172 - INFO - [detect_and_read_plate:614] - Plate detected: 'IND-123-34' YOLO_conf=0.483 OCR_conf=1.000
+2025-07-20 12:16:11,385 - ERROR - [detect_material_color:682] - Material detection error: argument of type 'int' is not iterable
+2025-07-20 12:16:11,387 - INFO - [process_frame:888] - Vehicle detected: Plate: IND-123-34 | Material: Detection Error | Confidence: 0.48 | Time: 12:16:11
+2025-07-20 12:16:11,395 - ERROR - [save_detection_to_database:758] - Database save error: table detections has no column named ocr_confidence
+2025-07-20 12:16:11,400 - INFO - [send_to_clipboard:767] - Detection copied to clipboard
+2025-07-20 12:16:11,994 - ERROR - [preprocess_plate_image:395] - Preprocessing error: module 'config' has no attribute 'MIN_PLATE_HEIGHT'
+2025-07-20 12:16:18,139 - INFO - [detect_and_read_plate:614] - Plate detected: 'IND-123-34' YOLO_conf=0.707 OCR_conf=1.000
+2025-07-20 12:16:29,740 - ERROR - [preprocess_plate_image:395] - Preprocessing error: module 'config' has no attribute 'MIN_PLATE_HEIGHT'
+2025-07-20 12:16:33,617 - INFO - [detect_and_read_plate:614] - Plate detected: 'JH03MF4477' YOLO_conf=0.725 OCR_conf=1.000
+2025-07-20 12:16:34,015 - ERROR - [detect_material_color:682] - Material detection error: argument of type 'int' is not iterable
+2025-07-20 12:16:34,015 - INFO - [process_frame:888] - Vehicle detected: Plate: JH03MF4477 | Material: Detection Error | Confidence: 0.73 | Time: 12:16:34
+2025-07-20 12:16:34,015 - ERROR - [save_detection_to_database:758] - Database save error: table detections has no column named ocr_confidence
+2025-07-20 12:16:34,032 - INFO - [send_to_clipboard:767] - Detection copied to clipboard
+2025-07-20 12:16:35,198 - ERROR - [preprocess_plate_image:395] - Preprocessing error: module 'config' has no attribute 'MIN_PLATE_HEIGHT'
+2025-07-20 12:16:40,778 - INFO - [detect_and_read_plate:614] - Plate detected: 'JH03MF4477' YOLO_conf=0.701 OCR_conf=0.995
+2025-07-20 12:16:42,349 - ERROR - [preprocess_plate_image:395] - Preprocessing error: module 'config' has no attribute 'MIN_PLATE_HEIGHT'
